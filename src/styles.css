@@ -1,0 +1,70 @@
+body {
+  background-image: url('file:///C:/Users/19255/Downloads/703618.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  color: #f6f5fc;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 48px;
+}
+p{
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+li{
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: #23A3AF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgba(228, 39, 39, 0.793);
+}
+select{
+    color: #757F9B;
+}
+select:hover{
+    color:black;
+    text-decoration: underline;
+}
+button{
+    color: #f6f5fc;
+    border-radius: 5px;
+    background-color: #310fa0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    padding: 6px;
+}
+button:hover{
+    background-color: #23A3AF;
+    color: #f6f5fc;
+    text-decoration: underline;
+}
+.container {
+  display: block;
+  text-align: center;
+  max-width: 25%;
+  margin: 0 auto;
+  background-color: #f6f5fc;
+  box-shadow: rgba(165, 222, 241, 0.96) 0px 5px 15px;
+  padding: 0px 30px 30px 30px;
+  border-radius: 10px;
+}
+.select-bars{
+    display:flex;
+}
+.select-bar{
+    width:150px;
+    margin-right: 10px;
+}
+footer{
+    color:#f6f5fc;
+    text-align: center;
+}
